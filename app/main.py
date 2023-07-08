@@ -30,4 +30,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to my API !!! \\n Add '/docs' to the end of the url to go to the API documentation"}
+    return {"message": "Welcome to my API !! -> Add '/docs' to the end of the url to go to the API documentation"}
