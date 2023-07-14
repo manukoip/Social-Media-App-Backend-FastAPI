@@ -10,7 +10,7 @@ description = """
 This is a simple Social Media Aplication. This API had **5 routes**:
 
 ### Posts
-This route creates, reads, deletes and updates posts(CRUD)
+This route creates, reads, deletes and updates posts (CRUD fucntionality)
 
 
 ### Users
@@ -22,7 +22,7 @@ This route handles the user authentication for the applcation
 
 
 ### Vote
-This route handles voting('like') and unvoting(remove the 'like') posts. This currently does not have a dislike functionality
+This route handles voting('like') and unvoting(remove the 'like') posts. This route currently does not have a dislike functionality
 
 
 ### Root
@@ -36,7 +36,7 @@ tags_metadata = [
     },
     {
         "name": "Posts",
-        "description": "Operations with posts. creates, reads, deletes and updates posts(CRUD)",
+        "description": "Operations with posts. creates, reads, deletes and updates posts (CRUD functionality)",
     },
     {
         "name": "Authentication",
@@ -57,7 +57,10 @@ app = FastAPI(
     contact={
         "name": ": Manu Mahadevan Koipalil",
         "email": "manukoip20@gmail.com",
-    }, openapi_tags=tags_metadata,
+    },
+    openapi_tags=tags_metadata,
+    swagger_ui_parameters={"defaultModelsExpandDepth": -1}
+
 
 )
 
