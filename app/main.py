@@ -10,7 +10,7 @@ description = """
 This is a simple Social Media Aplication. This API had **5 routes**:
 
 ### Posts
-This route creates, reads, deletes and updates posts (CRUD fucntionality)
+This route creates, reads, deletes and updates posts (CRUD functionality)
 
 
 ### Users

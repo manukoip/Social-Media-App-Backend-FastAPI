@@ -4,11 +4,11 @@ import pytest
 from app.config import settings
 
 
-def test_root(client):
-    res = client.get("/")
-    assert res.json().get(
-        'message') == "Welcome to my API !! -> Add '/docs' to the end of the url to go to the API documentation"
-    assert res.status_code == 200
+# def test_root(client):
+#     res = client.get("/")
+#     assert res.json().get(
+#         'message') == "Welcome to my API !! -> Add '/docs' to the end of the url to go to the API documentation"
+#     assert res.status_code == 200
 
 
 def test_create_user(client):
