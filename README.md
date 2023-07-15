@@ -9,7 +9,6 @@ First clone this repo by using following command
 ````
 
 git clone https://github.com/manukoip/Social-Media-App-FastAPI.git
-
 ````
 then 
 ````
