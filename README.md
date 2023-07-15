@@ -1,6 +1,6 @@
 # Backend of Social Media Application by using FastAPI
 
-Access the API documentation here : https://fastapi-social-media-app.onrender.com/docs
+Access the API documentation here : https://fastapi-social-media-app.onrender.com/docs .
 The documentation containes more information about all the routes and paths
 
 
