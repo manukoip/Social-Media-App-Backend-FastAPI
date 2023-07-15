@@ -7,7 +7,7 @@ from .config import settings
 
 # models.Base.metadata.create_all(bind=engine)
 description = """
-This is a simple Social Media Aplication. This API had **5 routes**:
+This is a simple Social Media Application. A User will be able to create a user, authenticate the user, work with posts (Create, Read, Update and Delete) and vote posts. This API had **5 routes**:
 
 ### Posts
 This route creates, reads, deletes and updates posts (CRUD functionality)
@@ -18,7 +18,7 @@ This route handles creating users and searching users by id
 
 
 ### Authentication
-This route handles the user authentication for the applcation
+This route handles the user authentication for the application
 
 
 ### Vote
