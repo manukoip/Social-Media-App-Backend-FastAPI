@@ -52,7 +52,7 @@ tags_metadata = [
     },
 ]
 app = FastAPI(
-    title="Social Media Application API",
+    title="Social Media Application API Documentation",
     description=description,
     contact={
         "name": ": Manu Mahadevan Koipalil",
